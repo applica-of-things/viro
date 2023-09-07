@@ -1,14 +1,14 @@
 {
-  "name": "@viro-community/react-viro",
+  "name": "@applica-of-things/viro-applica-of-things",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "2.23.0",
-  "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+  "version": "1.0.0",
+  "license": "MIT",  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applica-of-things/viro.git"
   },
-  "repository": "git@github.com:virocommunity/viro.git",
   "description": "Official community version of react-viro",
   "scripts": {
     "start": "echo 'I dont think you meant to run npm start here.'",

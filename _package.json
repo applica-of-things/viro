@@ -1,0 +1,23 @@
+{
+  "name": "@applica-of-things/viro-applica-of-things",
+  "version": "1.0.0",
+  "description": "applica of things version of react-viro",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applica-of-things/viro.git"
+  },
+  "keywords": [
+    "viro",
+    "applica-of-things"
+  ],
+  "author": "Applica srl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/applica-of-things/viro/issues"
+  },
+  "homepage": "https://github.com/applica-of-things/viro#readme"
+}
