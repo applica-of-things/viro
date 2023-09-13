@@ -8,6 +8,6 @@ In your app.json `plugins` array:
 
 ```json
 {
-  "plugins": ["@viro-community/react-viro"]
+  "plugins": ["@applica-of-things/viro-applica-of-things"]
 }
 ```

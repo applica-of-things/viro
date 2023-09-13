@@ -48,7 +48,7 @@ const withBranchAndroid = (config: ExpoConfig, props: any) => {
          *
          * plugins: [
          *   [
-         *     "@viro-community/react-viro",
+         *     "@applica-of-things/viro-applica-of-things",
          *     {
          *       "androidXrMode": "GVR"
          *     }
@@ -61,7 +61,7 @@ const withBranchAndroid = (config: ExpoConfig, props: any) => {
          * ********************************************************************
          * plugins: [
          *   [
-         *     "@viro-community/react-viro",
+         *     "@applica-of-things/viro-applica-of-things",
          *     {
          *       "androidXrMode": ["GVR", "AR"]
          *     }
@@ -71,13 +71,13 @@ const withBranchAndroid = (config: ExpoConfig, props: any) => {
          * Sample app.json without property config
          * ********************************************************************
          *
-         * plugins: [ "@viro-community/react-viro" ],
+         * plugins: [ "@applica-of-things/viro-applica-of-things" ],
          *
          */
 
         const viroPlugin = config?.plugins?.find(
           (plugin) =>
-            Array.isArray(plugin) && plugin[0] === "@viro-community/react-viro"
+            Array.isArray(plugin) && plugin[0] === "@applica-of-things/viro-applica-of-things"
         );
 
         if (Array.isArray(viroPlugin)) {
@@ -150,10 +150,10 @@ const withViroSettingsGradle = (config: ExpoConfig) =>
   withSettingsGradle(config, async (config) => {
     config.modResults.contents += `
 include ':react_viro', ':arcore_client', ':gvr_common', ':viro_renderer'
-project(':arcore_client').projectDir = new File('../node_modules/@viro-community/react-viro/android/arcore_client')
-project(':gvr_common').projectDir = new File('../node_modules/@viro-community/react-viro/android/gvr_common')
-project(':viro_renderer').projectDir = new File('../node_modules/@viro-community/react-viro/android/viro_renderer')
-project(':react_viro').projectDir = new File('../node_modules/@viro-community/react-viro/android/react_viro')
+project(':arcore_client').projectDir = new File('../node_modules/@applica-of-things/viro-applica-of-things/android/arcore_client')
+project(':gvr_common').projectDir = new File('../node_modules/@applica-of-things/viro-applica-of-things/android/gvr_common')
+project(':viro_renderer').projectDir = new File('../node_modules/@applica-of-things/viro-applica-of-things/android/viro_renderer')
+project(':react_viro').projectDir = new File('../node_modules/@applica-of-things/viro-applica-of-things/android/react_viro')
     `;
     return config;
   });

@@ -4,8 +4,8 @@
   </a>
 </p>
 
-[![npm version](https://img.shields.io/npm/v/@viro-community/react-viro)](https://www.npmjs.com/package/@viro-community/react-viro)
-[![downloads](https://img.shields.io/npm/dm/@viro-community/react-viro?color=purple)](https://www.npmjs.com/package/@viro-community/react-viro)
+[![npm version](https://img.shields.io/npm/v/@applica-of-things/viro-applica-of-things)](https://www.npmjs.com/package/@applica-of-things/viro-applica-of-things)
+[![downloads](https://img.shields.io/npm/dm/@applica-of-things/viro-applica-of-things?color=purple)](https://www.npmjs.com/package/@applica-of-things/viro-applica-of-things)
 [![Discord](https://img.shields.io/discord/774471080713781259?label=Discord)](https://discord.gg/H3ksm5NhzT)
 
 # ViroReact
@@ -37,7 +37,7 @@ The documentation is found [here](https://viro-community.readme.io/docs/overview
 
 - _Older versions couldn't be submitted to Apple's app store due to use of `UIWebView`. Is this still a problem?_
 
-  Reliance on `UIWebView` has been removed from the project, so you should not have this problem if using the `@viro-community/react-viro` package.
+  Reliance on `UIWebView` has been removed from the project, so you should not have this problem if using the `@applica-of-things/viro-applica-of-things` package.
 
 # Examples
 

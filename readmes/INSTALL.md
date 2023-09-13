@@ -9,13 +9,13 @@ The steps below are for manually installing and linking the library to an existi
 #### NPM 
 
 ```console
-$ npm install --save @viro-community/react-viro
+$ npm install --save @applica-of-things/viro-applica-of-things
 ```
 
 #### Yarn
 
 ```console
-$ yarn add @viro-community/react-viro
+$ yarn add @applica-of-things/viro-applica-of-things
 ```
 
 ## Linking (You _must_ do this - we do not support auto-linking)

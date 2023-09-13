@@ -3,8 +3,8 @@
 1. Add the following lines to your `ios/Podfile` below `use_react_native!(:path => config["reactNativePath"])`:
 
    ```yaml
-   pod 'ViroReact', :path => '../node_modules/@viro-community/react-viro/ios'
-   pod 'ViroKit', :path => '../node_modules/@viro-community/react-viro/ios/dist/ViroRenderer/'
+   pod 'ViroReact', :path => '../node_modules/@applica-of-things/viro-applica-of-things/ios'
+   pod 'ViroKit', :path => '../node_modules/@applica-of-things/viro-applica-of-things/ios/dist/ViroRenderer/'
    ```
 
    See this [example](https://github.com/ViroCommunity/starter-kit/blob/master/ios/Podfile)
