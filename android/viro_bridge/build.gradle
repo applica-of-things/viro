@@ -29,7 +29,6 @@ dependencies {
     implementation project(':arcore_client')
     implementation project(':gvr_common')
     implementation project(':viro_renderer')
-    implementation 'com.google.android.exoplayer:exoplayer:2.7.1'
     implementation 'com.google.protobuf.nano:protobuf-javanano:3.0.0-alpha-7'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 }
